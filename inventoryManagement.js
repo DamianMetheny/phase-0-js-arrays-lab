@@ -1,4 +1,22 @@
 // Write your code here
+const products = ["Laptop", "Phone", "Headphones", "Monitor"];
+
+function logFirstProduct(arr) {
+  console.log(products[0]);
+}
+
+function addProduct(newProduct) {
+  products.push(newProduct)
+}
+
+function updateProductName(indice, newName) {
+  products[indice] = newName
+}
+
+function removeLastProduct(arr) {
+  products.pop();
+}
+
 
 
 
